@@ -25,9 +25,8 @@ def emotion_detector(text_to_analyse):
         disgust_score = None
         fear_score = None
         joy_score = None
-        sadness_scorey = None
+        sadness_score = None
         dominant_emotion_result = None
-
 
     return {
         'anger' : anger_score,
